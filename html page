@@ -1,0 +1,30 @@
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="fname" age=""><br>
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city" value=""><br><br>
+  <label for="country">Country:</label><br>
+  <input type="text" id="country" name="country" value=""><br><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  
+  <input type="submit" value="Submit">
+  
+</form> 
+
+
+</body>
+</html>
